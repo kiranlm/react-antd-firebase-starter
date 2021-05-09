@@ -3,7 +3,7 @@ import { Form, Input, Button, Checkbox, Row, Col } from 'antd';
 import { UserOutlined, LockOutlined, EyeInvisibleOutlined, EyeTwoTone } from '@ant-design/icons';
 import { withRouter, RouteComponentProps, Link } from 'react-router-dom';
 
-import './styles.css';
+import './styles.less';
 import { UserContext } from '../../Providers/UserProvider';
 import { IUserFields } from './IUserFields';
 
@@ -21,7 +21,7 @@ const LoginForm = ({ history }: RouteComponentProps) => {
 
   return (
     <Row justify='space-around' align='middle'>
-      <Col span={12}>
+      <Col xs={24} sm={16} md={16} lg={12} xl={12}>
         <Form
           name='normal_login'
           className='login-form'

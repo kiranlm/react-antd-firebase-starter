@@ -3,7 +3,7 @@ import { Form, Input, Button, Row, Col } from 'antd';
 import { UserOutlined, LockOutlined, EyeInvisibleOutlined, EyeTwoTone } from '@ant-design/icons';
 import { withRouter, RouteComponentProps, Link } from 'react-router-dom';
 
-import './styles.css';
+import './styles.less';
 import { UserContext } from '../../Providers/UserProvider';
 import { IUserFields } from './IUserFields';
 

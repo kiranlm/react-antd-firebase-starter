@@ -2,7 +2,6 @@ import React, { FC } from 'react';
 import { Layout } from 'antd';
 import Header from './Header';
 import Footer from './Footer';
-import './index.css';
 import Carousel from './Carousel';
 
 const { Content } = Layout;

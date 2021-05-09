@@ -1,8 +1,6 @@
 import React from 'react';
 import LoginForm from '../Components/Auth/LoginForm';
 import RegisterForm from '../Components/Auth/RegisterForm';
-import ClassRoom from '../Components/ClassRoom';
-import { CourseList, Course } from '../Components/Course';
 import ProfilePage from '../Components/ProfilePage';
 
 const publicRoutes = [
